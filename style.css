@@ -1,12 +1,43 @@
-body{
-    background-color: #ebebe0
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url("moonbackground.png");
+  
+    height: 100vh;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1 { 
+    color: #f2f2f2;
+    text-align: center;
 }
-h1{ 
-    color: #4e4e32;
-    text-align: right;
-}
-h3{
-    color: #6d6d46;
-    text-align: right;
+h3, FORM {
+    color: #f2f2f2;
+    text-align: center;
     font-style: italic;
 }
+img {
+    border-radius: 8px;
+    text-align: center
+}
+.caption {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    }
+    
+    .caption span.border {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    }
